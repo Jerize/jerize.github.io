@@ -1,0 +1,98 @@
+.map{
+    display: block;
+    list-style-type: none;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    padding-inline-start: 40px;
+    unicode-bidi: isolate;
+}
+
+.topicref{
+  list-style-type: none;
+}
+
+.card{
+  width: 50%;
+}
+
+.back{
+  margin-bottom: 30px;
+  margin-top: 30px;
+  border: 1px solid black
+}
+
+.front{
+  margin-left: -1em;
+}
+
+.td{
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.h1{
+  display: none;
+}
+
+.rowsep-1 {
+  border-bottom: 1px solid black;
+  background-color: lightgray;
+  font-weight: bold;
+}
+
+p.info{
+  font-style: italic;
+  font-size: small;
+}
+
+tbody:has(tr.rowsep-1)::after {
+  content: '';
+  display: block;
+  height: 20px;
+}
+
+.entry{
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.align-center{
+  text-align: start;
+  width: 100px;
+}
+
+.image:not(.hero-image){
+  height: 12px;
+}
+
+td.dlterm{
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.extra-width{
+  width: 24px;
+}
+
+body{
+  padding: 30px;
+}
+
+.topicref{
+  margin-bottom: 1em;
+  margin-top: 1em;
+  margin-left: -2em;
+}
+
+.ulchildlink {
+  margin-left: -2em;
+}
+
+.breadtext{
+  line-height: 1.5em;
+  width: 50%
+}
+
+
