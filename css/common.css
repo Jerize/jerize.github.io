@@ -21,6 +21,12 @@
   border: 1px solid black
 }
 
+.back::after{
+  content: '';
+  display: block;
+  height: 20px;
+}
+
 .front{
   margin-left: -1em;
 }
@@ -35,6 +41,7 @@
 }
 
 .rowsep-1 {
+  border-top: 1px solid black;
   border-bottom: 1px solid black;
   background-color: lightgray;
   font-weight: bold;
@@ -45,11 +52,11 @@ p.info{
   font-size: small;
 }
 
-tbody:has(tr.rowsep-1)::after {
+/* tbody:has(tr.rowsep-1)::after {
   content: '';
   display: block;
   height: 20px;
-}
+} */
 
 .entry{
   padding-left: 15px;
@@ -63,6 +70,10 @@ tbody:has(tr.rowsep-1)::after {
 
 .image:not(.hero-image){
   height: 12px;
+}
+
+.wide{
+  width: 100%;
 }
 
 td.dlterm{
@@ -93,6 +104,28 @@ body{
 .breadtext{
   line-height: 1.5em;
   width: 50%
+}
+
+.wrapper{
+  border: 1.5px solid black;
+  padding: 5px;
+}
+
+.wrapper_subtitle{
+  margin-left: 10px;
+}
+
+.normal_text{
+  font-weight: normal;
+}
+
+.padded_title{
+  padding-bottom: 10px;
+}
+
+.lined_title{
+  border-bottom: 1px solid black;
+  width: 50%;
 }
 
 
