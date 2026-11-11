@@ -12,6 +12,7 @@
 html {
   color: #290044;
   font-family: Garamond, serif;
+  background-color: #282336;
   /* background-color: #EEE3B0; */
 }
 
@@ -29,7 +30,7 @@ html {
   width: 75%;
   font-family: Garamond, serif;
   background-color: #500071;
-  color: #290044;
+  color: #EEE3B0;
 }
 
 .boxtitle{
@@ -104,7 +105,7 @@ li:not(.topicref_anchor_child) > a{
   border-radius: 5px; */
 }
 
-.hero-stats:not(.basic-attack) > table{
+.hero-stats > table{
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
   /* padding: 10px;
@@ -112,6 +113,18 @@ li:not(.topicref_anchor_child) > a{
   border-radius: 5px;
   /* text-align: center; */
   background-color: #C4A4DA;
+  font-size: 20pt;
+   width: 75%;
+}
+
+.hero-stats.ranger > table{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  /* padding: 10px;
+  padding-right: 15px; */
+  border-radius: 5px;
+  /* text-align: center; */
+  background-color: lightcoral;
   font-size: 20pt;
    width: 75%;
 }
@@ -136,6 +149,21 @@ li:not(.topicref_anchor_child) > a{
   border-bottom: 1px solid #C4A4DA;
   background-color: #C4A4DA;
   font-weight: bold;
+}
+
+.rowsep-1.ranger {
+  border-top: 1px solid lightcoral;
+  border-bottom: 1px solid lightcoral;
+  background-color: lightcoral;
+  font-weight: bold;
+}
+
+.rowsep-0 {
+  background-color: white;
+}
+
+.rule_row{
+  background-color: white;
 }
 
 p.info{
@@ -227,6 +255,7 @@ body{
 .wrapper{
   border: 1.5px solid #C4A4DA;
   padding: 5px;
+  background-color: white;
 }
 
 .wrapper_subtitle{
@@ -245,23 +274,57 @@ body{
   font-size: 35pt; 
   line-height: 40pt; 
   font-family: Garamond, serif;
-  color: #290044;
+  color: #EEE3B0;
 }
 
+.p:not(.info) {
+  color: white;
+}
+
+p.p.h2 {
+  color: black;
+}
+
+.ul:not(.special_list) {
+  color: white;
+}
+
+.ol {
+  color: white;
+}
+
+.sectiontitle{
+  color: #EEE3B0;
+}
+
+/* .sectiontitle:not(.wrapper_subtitle) {
+  color: #EEE3B0;
+} */
+
 .lined_title{
-  border-bottom: 1px solid  #290044;
-  color: #290044;
+  border-bottom: 1px solid  #EEE3B0;
+  color: #EEE3B0;
   width: 100%;
 }
+
+
 
 .parentlink {
   font-size: 20pt; 
   line-height: 25pt; 
   font-family: Garamond, serif;
+  color: #EEE3B0;
+}
+
+a {
+  text-decoration: none;
+  font-family: Garamond, serif;
+  color: #C4A4DA;
 }
 
 .hero-image{
   height: 300px;
+  border-radius: 5px;
   /* padding-top: 10px; */
   /* border-radius: 5px; */
 }
@@ -270,6 +333,8 @@ body{
   margin-bottom: 10px;
   padding-bottom: 10px;
 } */
+
+
 
 
 
