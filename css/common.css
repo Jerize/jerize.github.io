@@ -16,21 +16,27 @@ html {
   /* background-color: #EEE3B0; */
 }
 
-.table{
+/* .table{
   width: 75%;
-}
+} */
 
 .topicref{
   list-style-type: none;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
   text-decoration: none;
-  padding: 10px;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  /* padding: 10px; */
   border-radius: 5px;
-  width: 75%;
+  width: 100%;
   font-family: Garamond, serif;
   background-color: #500071;
   color: #EEE3B0;
+  margin-bottom: 2em;
+  margin-top: 1em;
+  margin-left: -2em;
 }
 
 .boxtitle{
@@ -39,7 +45,7 @@ html {
   text-decoration: none;
   padding: 10px;
   border-radius: 5px;
-  width: 75%;
+  width: 100%;
   font-family: Garamond, serif;
   background-color: #500071;
   color: #EEE3B0;
@@ -48,28 +54,48 @@ html {
 
 li:not(.topicref_anchor_child) > strong > a{
   text-decoration: none;
-  font-size: xx-large;
+  font-size: 35pt;
+  line-height: 50pt;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 100%;
   font-family: Garamond, serif;
   color: #EEE3B0;
 }
 
 li.topicref_anchor_child > a{
   text-decoration: none;
-  font-size: large;
+  font-size: 35pt;
+  line-height: 50pt;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 100%;
   font-family: Garamond, serif;
   color: #EEE3B0;
 }
 
 li.topicref_anchor_child > strong > a{
   text-decoration: none;
-  font-size: large;
+  font-size: 35pt;
+  line-height: 50pt;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 100%;
   font-family: Garamond, serif;
   color: #EEE3B0;
 }
 
 li:not(.topicref_anchor_child) > a{
   text-decoration: none;
-  font-size: xx-large;
+  font-size: 35pt;
+  line-height: 50pt;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 100%;
   font-family: Garamond, serif;
   color: #EEE3B0;
 }
@@ -86,8 +112,15 @@ li:not(.topicref_anchor_child) > a{
   border: 1px solid #C4A4DA;
   font-family: Garamond, serif;
   /* background-color: red; */
-  line-height: 20pt;
-  padding-bottom: 10px;
+  line-height: 30pt;
+  padding-bottom: 20px;
+  font-size: 25pt;
+  line-height: 25pt;
+  /* color: red; */
+}
+
+.back > table {
+  color: red;
 }
 
 .back.role_guardian{
@@ -97,7 +130,7 @@ li:not(.topicref_anchor_child) > a{
   border: 5px solid lightgreen;
   font-family: Garamond, serif;
   /* background-color: red; */
-  line-height: 20pt;
+  line-height: 30pt;
   padding-bottom: 10px;
 }
 
@@ -108,7 +141,7 @@ li:not(.topicref_anchor_child) > a{
   border: 5px solid rgb(241, 241, 155);
   font-family: Garamond, serif;
   /* background-color: red; */
-  line-height: 20pt;
+  line-height: 30pt;
   padding-bottom: 10px;
 }
 
@@ -119,7 +152,7 @@ li:not(.topicref_anchor_child) > a{
   border: 5px solid #C4A4DA;
   font-family: Garamond, serif;
   /* background-color: red; */
-  line-height: 20pt;
+  line-height: 30pt;
   padding-bottom: 10px;
 }
 
@@ -130,7 +163,7 @@ li:not(.topicref_anchor_child) > a{
   border: 5px solid lightcoral;
   font-family: Garamond, serif;
   /* background-color: red; */
-  line-height: 20pt;
+  line-height: 30pt;
   padding-bottom: 10px;
 }
 
@@ -141,7 +174,7 @@ li:not(.topicref_anchor_child) > a{
   border: 5px solid lightblue;
   font-family: Garamond, serif;
   /* background-color: red; */
-  line-height: 20pt;
+  line-height: 30pt;
   padding-bottom: 10px;
 }
 
@@ -163,36 +196,46 @@ li:not(.topicref_anchor_child) > a{
 .hero-stats.role_guardian table > tbody > tr > td.dd {
   padding-right: 25pt;
   padding-left: 25pt;
-  padding-top: 10pt;
-  padding-bottom: 10pt;
+  padding-top: 5pt;
+  padding-bottom: 5pt;
+  font-size: 30pt;
+  /* line-height: 35pt; */
 }
 
 .hero-stats.role_vanguard table > tbody > tr > td.dd {
   padding-right: 25pt;
   padding-left: 25pt;
   padding-top: 10pt;
-  padding-bottom: 10pt;
+  padding-top: 5pt;
+  padding-bottom: 5pt;
+  font-size: 30pt;
 }
 
 .hero-stats.role_arcanist table > tbody > tr > td.dd {
   padding-right: 25pt;
   padding-left: 25pt;
   padding-top: 10pt;
-  padding-bottom: 10pt;
+  padding-top: 5pt;
+  padding-bottom: 5pt;
+  font-size: 30pt;
 }
 
 .hero-stats.role_bruiser table > tbody > tr > td.dd {
   padding-right: 25pt;
   padding-left: 25pt;
   padding-top: 10pt;
-  padding-bottom: 10pt;
+  padding-top: 5pt;
+  padding-bottom: 5pt;
+  font-size: 30pt;
 }
 
 .hero-stats.role_ranger table > tbody > tr > td.dd {
   padding-right: 25pt;
   padding-left: 25pt;
   padding-top: 10pt;
-  padding-bottom: 10pt;
+  padding-top: 5pt;
+  padding-bottom: 5pt;
+  font-size: 30pt;
 }
 
 .hero-stats > table{
@@ -338,7 +381,8 @@ li:not(.topicref_anchor_child) > a{
 
 p.info{
   font-style: italic;
-  font-size: small;
+  font-size: 25pt;
+  line-height: 25pt;
 }
 
 /* tbody:has(tr.rowsep-1)::after {
@@ -350,6 +394,7 @@ p.info{
 .entry{
   padding-left: 15px;
   padding-right: 15px;
+  padding-bottom: 15px;
 }
 
 .align-center{
@@ -358,13 +403,19 @@ p.info{
 }
 
 .web-img{
-  height: 30px;
+  height: 40px;
   padding-left: 15pt;
 }
 
-.image:not(.display-image):not(.hero-image):not(.web-img){
-  height: 12px;
+
+.image:not(.display-image):not(.hero-image):not(.web-img):not(.extra-width){
+  height: 30px;
+  width: 30px
   /* padding-left: 10pt; */
+}
+
+.display-image {
+  width: 75%;
 }
 
 .wide{
@@ -379,18 +430,13 @@ td.dlterm{
 }
 
 .extra-width{
-  width: 24px;
+  height: 25px;
+  width: 50px;
 }
 
 body{
   padding: 30px;
   font-family: Garamond, serif;
-}
-
-.topicref{
-  margin-bottom: 1em;
-  margin-top: 1em;
-  margin-left: -2em;
 }
 
 .ulchildlink:not(.topicref_anchor_child) {
@@ -400,7 +446,7 @@ body{
   text-decoration: none;
   padding: 10px;
   border-radius: 5px;
-  width: 75%;
+  width: 100%;
   font-family: Garamond, serif;
   background-color: #500071;
   color: #EEE3B0;
@@ -413,7 +459,7 @@ body{
   text-decoration: none;
   padding: 10px;
   border-radius: 5px;
-  width: 50%;
+  width: 100%;
   font-family: Garamond, serif;
   background-color: #500071;
   color: #EEE3B0; 
@@ -421,6 +467,7 @@ body{
 
 .breadtext{
   line-height: 1.5em;
+  font-size: 25pt;
   width: 100%
 }
 
@@ -432,6 +479,7 @@ body{
 
 .wrapper_subtitle{
   margin-left: 10px;
+  font-size: 35pt;
   color: rgb(182, 182, 25);
 }
 
@@ -444,14 +492,15 @@ body{
 }
 
 .topictitle1 {
-  font-size: 35pt; 
-  line-height: 40pt; 
+  font-size: 60pt; 
+  line-height: 90pt; 
   font-family: Garamond, serif;
   color: #EEE3B0;
 }
 
 .p:not(.info) {
   color: white;
+  font-size: 25pt;
 }
 
 p.p.h2 {
@@ -506,6 +555,108 @@ a {
   margin-bottom: 10px;
   padding-bottom: 10px;
 } */
+
+.ulchildlink {
+  margin-bottom: 10px;
+  margin-top: 1em;
+}
+
+.familylinks > .parentlink{
+  font-size: 30pt;
+  line-height: 35pt;
+}
+
+/* td[colspan="5"] > span.ph {
+   padding-bottom: 5pt;
+} */
+
+/* Role Category */
+
+.ulchildlink:has( > a[href="types/supports.html"]){
+  background-color: lightgreen;
+}
+
+.ulchildlink > a[href="types/supports.html"]{
+  color: #290044;
+}
+
+.ulchildlink:has( > a[href="types/tanks.html"]){
+  background-color: rgb(241, 241, 155);
+}
+
+.ulchildlink > a[href="types/tanks.html"]{
+  color: #290044;
+}
+
+.ulchildlink:has( > a[href="types/fighters.html"]){
+  background-color: #C4A4DA;
+}
+
+.ulchildlink > a[href="types/fighters.html"]{
+  color: #290044;
+}
+
+.ulchildlink:has( > a[href="types/mages.html"]){
+  background-color: lightblue;
+}
+
+.ulchildlink > a[href="types/mages.html"]{
+  color: #290044;
+}
+
+.ulchildlink:has( > a[href="types/marksmen.html"]){
+  background-color: lightcoral;
+}
+
+.ulchildlink > a[href="types/marksmen.html"]{
+  color: #290044;
+}
+
+/* Role > Hero  */
+
+.ulchildlink:has( > a[href*="guardian"]){
+  background-color: lightgreen;
+}
+
+.ulchildlink > a[href*="guardian"]{
+  color: #290044;
+}
+
+.ulchildlink:has( > a[href*="vanguard"]){
+  background-color: rgb(241, 241, 155);
+}
+
+.ulchildlink > a[href*="vanguard"]{
+  color: #290044;
+}
+
+.ulchildlink:has( > a[href*="bruiser"]){
+  background-color: #C4A4DA;
+}
+
+.ulchildlink > a[href*="bruiser"]{
+  color: #290044;
+}
+
+.ulchildlink:has( > a[href*="arcanist"]){
+  background-color: lightblue;
+}
+
+.ulchildlink > a[href*="arcanist"]{
+  color: #290044;
+}
+
+.ulchildlink:has( > a[href*="ranger"]){
+  background-color: lightcoral;
+}
+
+.ulchildlink > a[href*="ranger"]{
+  color: #290044;
+}
+
+
+
+
 
 
 
