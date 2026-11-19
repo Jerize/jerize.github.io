@@ -623,8 +623,13 @@ p.p.h2 {
   color: white;
 }
 
-.sectiontitle:not(.wrapper_subtitle){
+.sectiontitle:not(.wrapper_subtitle):not(.lore_title){
   color: #EEE3B0;
+}
+
+.sectiontitle.lore_title{
+  color: #EEE3B0;
+  font-size: 35pt;
 }
 
 /* .sectiontitle:not(.wrapper_subtitle) {
