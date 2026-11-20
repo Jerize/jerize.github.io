@@ -207,8 +207,8 @@ li:not(.topicref_anchor_child) > a{
 .hero-stats.role_template table > tbody > tr > td.dd {
   padding-right: 25pt;
   padding-left: 25pt;
-  padding-top: 5pt;
-  padding-bottom: 5pt;
+  padding-top: 10pt;
+  padding-bottom: 10pt;
   font-size: 30pt;
   /* line-height: 35pt; */
 }
@@ -216,8 +216,8 @@ li:not(.topicref_anchor_child) > a{
 .hero-stats.role_guardian table > tbody > tr > td.dd {
   padding-right: 25pt;
   padding-left: 25pt;
-  padding-top: 5pt;
-  padding-bottom: 5pt;
+  padding-top: 10pt;
+  padding-bottom: 10pt;
   font-size: 30pt;
   /* line-height: 35pt; */
 }
@@ -235,8 +235,8 @@ li:not(.topicref_anchor_child) > a{
   padding-right: 25pt;
   padding-left: 25pt;
   padding-top: 10pt;
-  padding-top: 5pt;
-  padding-bottom: 5pt;
+  padding-top: 10pt;
+  padding-bottom: 10pt;
   font-size: 30pt;
 }
 
@@ -244,8 +244,8 @@ li:not(.topicref_anchor_child) > a{
   padding-right: 25pt;
   padding-left: 25pt;
   padding-top: 10pt;
-  padding-top: 5pt;
-  padding-bottom: 5pt;
+  padding-top: 10pt;
+  padding-bottom: 10pt;
   font-size: 30pt;
 }
 
@@ -253,8 +253,8 @@ li:not(.topicref_anchor_child) > a{
   padding-right: 25pt;
   padding-left: 25pt;
   padding-top: 10pt;
-  padding-top: 5pt;
-  padding-bottom: 5pt;
+  padding-top: 10pt;
+  padding-bottom: 10pt;
   font-size: 30pt;
 }
 
@@ -658,7 +658,7 @@ a {
 }
 
 .hero-image{
-  height: 300px;
+  height: 550px;
   border-radius: 5px;
   /* padding-top: 10px; */
   /* border-radius: 5px; */
